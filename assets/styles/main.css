@@ -166,7 +166,7 @@ main {
 section {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1em 2em;
+    padding: 1em 5em;
     justify-items: center;
 }
 
