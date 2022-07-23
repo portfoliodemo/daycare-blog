@@ -37,6 +37,39 @@ body {
 nav {
     padding: 1em;
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* Alternate nav */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+/* Review understanding of this setup (margin-right: auto) in a flex container */
+#home {
+    margin-right: auto;
+    color: rgb(101, 101, 230);
+}
+
+nav a {
+    text-decoration: none;
+    color: #75af25;
+    font-size: 1.5em;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    font-family: 'Ribeye Marrow', cursive;
+    margin: 0 1.5em;
+}
+
+nav a:nth-child(1):hover {
+    background-color: inherit;
+}
+
+nav a:hover {
+    background-color: #679b1f;
+    color: whitesmoke;
 }
 
 ul {
@@ -203,7 +236,27 @@ footer h6 {
     text-align: center;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 1020px) {
+
+    nav a:first-child {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 630px) {
+
+    #home {
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* @media (max-width: 730px) {
     nav ul.nav-menu {
         flex-direction: column;
         align-items: center;
@@ -212,6 +265,4 @@ footer h6 {
     nav ul.nav-menu a {
         width: 100%;
     }
-}
-
-
+} */
