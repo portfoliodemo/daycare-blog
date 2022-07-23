@@ -244,9 +244,34 @@ main section ul li {
     height: 100%;
 }
 
-footer h6 {
-    text-align: center;
+footer {
+    padding: 1em;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    flex-wrap: wrap;
 }
+
+footer h6 {
+    padding: 1em;
+    margin: 0.25em 0.5em;
+}
+
+#bow-valley-link {
+    text-decoration: none;
+    color:rgb(101, 101, 230);
+    font-family: 'DM Sans', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #75af25;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+/* Media Queries */
 
 @media (max-width: 1020px) {
 
@@ -265,6 +290,7 @@ footer h6 {
     nav {
         flex-direction: column;
         align-items: center;
+        position: static;
     }
 }
 
