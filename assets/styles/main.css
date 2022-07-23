@@ -82,6 +82,10 @@ ul {
     padding-inline-end: 0;
 }
 
+.no-list-style {
+    list-style: none;
+}
+
 nav ul.nav-menu {
     display: flex;
     list-style: none;
