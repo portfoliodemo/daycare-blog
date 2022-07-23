@@ -259,7 +259,7 @@ footer h6 {
     margin: 0.25em 0.5em;
 }
 
-#bow-valley-link {
+#bow-valley-link, .outdoor-links a {
     text-decoration: none;
     color:rgb(101, 101, 230);
     font-family: 'DM Sans', sans-serif;
