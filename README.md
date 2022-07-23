@@ -1,2 +1,2 @@
 # daycare-blog
-A fictional daycare blog, showcasing informational articles and welcoming new families. 
+A fictional daycare blog, showcasing informational articles and helpful information for families. <h6>Content created by <a href="https://bowvalleycollege.ca/programs-courses/community-studies/early-childhood-education-and-development-diploma" id="bow-valley-link" title="Bow Valley College Early Childhood Education and Development">Bow Valley College Early Childhood Education and Development Students</a></h6><h6>Website Developed By <a href="https://github.com/portfoliodemo" title="PortfolioDemo GitHub">PortfolioDemo</a> </h6>
