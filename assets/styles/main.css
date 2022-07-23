@@ -28,6 +28,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
     /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
     /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
@@ -285,7 +286,7 @@ footer a {
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 675px) {
 
     #home {
         margin: 0;
@@ -294,7 +295,8 @@ footer a {
     nav {
         flex-direction: column;
         align-items: center;
-        position: static;
+        flex-wrap: nowrap;
+        /* position: static; */
     }
 }
 
