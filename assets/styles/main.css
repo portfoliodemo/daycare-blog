@@ -190,7 +190,8 @@ section {
 }
 
 main section h2 {
-    font-size: 4em;
+    font-size: 5em;
+    margin: 0.25em;
 }
 
 main section:first-of-type p {
@@ -202,11 +203,19 @@ main section p, ul {
     max-width: 80ch;
 }
 
-address {
+.preview address {
     font-weight: bold;
     margin: 0.5em;
     padding: 0;
-    /* justify-self: flex-start; */
+    justify-self: flex-start;
+}
+
+address {
+    font-weight: bold;
+    margin: 1.5em;
+    padding: 0;
+    justify-self: flex-start;
+    font-size: 1.25em;
 }
 
 main section h3 {
@@ -229,6 +238,10 @@ main section ul li {
 .fantastic-playroom img {
     width: 80%;
     border-radius: 3em;
+    border-style: dashed;
+    border-color: #d9e7ff;
+    border-width: 0.25em;
+    margin-bottom: 1.25em;
 }
 
 .ece-curriculum {
@@ -239,6 +252,10 @@ main section ul li {
 .ece-curriculum img {
     width: 50%;
     border-radius: 3em;
+    border-style: dashed;
+    border-color: #d9e7ff;
+    border-width: 0.25em;
+    margin-bottom: 1.25em;
 }
 
 .teacher-student {
@@ -251,6 +268,10 @@ main section ul li {
 .teacher-student img {
     width: 50%;
     border-radius: 3em;
+    border-style: dashed;
+    border-color: #d9e7ff;
+    border-width: 0.25em;
+    margin-bottom: 1.25em;
 }
 
 .company-info {
@@ -415,6 +436,10 @@ blockquote {
     border-style: dashed;
     padding: 1em;
     justify-content: center;
+}
+
+.preview p {
+    margin-top: 0.125em;
 }
 
 .thumbnail-preview {
