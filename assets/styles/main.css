@@ -516,6 +516,17 @@ footer a {
     }
 }
 
+@media (max-width: 375px) {
+
+    nav a:first-child {
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+}
+
 /* @media (max-width: 730px) {
     nav ul.nav-menu {
         flex-direction: column;
