@@ -415,6 +415,25 @@ blockquote {
 
 /* End of Preview Posts */
 
+.references h2 {
+    text-align: center;
+}
+
+.references p {
+    margin: 0.25em 0;
+}
+
+.italicize {
+    font-style: italic; 
+}
+
+.references {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0 4em 2em 4em;
+}
+
 footer {
     padding: 1em;
     /* background: #d9e7ff; */
