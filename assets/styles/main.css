@@ -475,6 +475,16 @@ footer a {
     }
 }
 
+@media (max-width: 700px) {
+    .preview-posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-family: var(--font-family-dm-sans);
+        padding: 1em;
+        gap: 0.5em;
+    }
+}
+
 @media (max-width: 675px) {
 
     #home {
