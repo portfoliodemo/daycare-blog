@@ -14,16 +14,13 @@ html {
     outline: 1px solid whitesmoke !important;
   } */
 
-/* :root {
+:root {
     --header-bg-color-black: rgb(46, 49, 54);
     --header-bg-color-faded-grey: #3f3f3fd3; 
-    --font-family-bubblegum: 'Bubblegum Sans', cursive;
-    --font-family-corben: 'Corben', cursive;
-    --font-family-limelight: 'Limelight', cursive;
-    --font-family-raleway: 'Raleway', sans-serif; 
+    --font-family-raleway: 'Ribeye Marrow', cursive; 
     --font-family-roboto: 'Roboto', sans-serif;
-    --font-family-inconsolata: 'Inconsolata', sans-serif;
-} */
+    --font-family-dm-sans: 'DM Sans', sans-serif;
+}
 
 body {
     margin: 0;
@@ -347,6 +344,65 @@ blockquote {
     border-bottom-left-radius: 4em;
     border-bottom-right-radius: 4em;
 }
+
+/* Preview Posts */
+
+.preview-posts .preview h2 {
+    margin: 0.25em 0;
+    text-align: center;
+}
+
+.preview-posts .preview a {
+    text-decoration: none;
+}
+
+.preview-posts .preview figure {
+    margin: 0;
+    padding: 0;
+}
+
+.preview-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: var(--font-family-dm-sans);
+    padding: 2em;
+    gap: 1em;
+}
+
+.preview {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-width: 0.25em;
+    border-style: dashed;
+    padding: 1em;
+}
+
+.thumbnail-preview {
+    width: inherit;
+}
+
+.thumbnail-preview a {
+    text-decoration: none;
+}
+
+.thumbnail-preview img {
+    width: 100%;
+    border-color: whitesmoke;
+    border-width: 0.25em;
+    border-style: dashed;
+    border-top-left-radius: 4em;
+    /* border-bottom-left-radius: 4em; */
+    border-bottom-right-radius: 4em;
+}
+
+.read-more {
+    color: lightslategray;
+    display: block;
+}
+
+/* End of Preview Posts */
 
 footer {
     padding: 1em;
