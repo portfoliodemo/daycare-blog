@@ -232,6 +232,16 @@ main section ul li {
     border-radius: 3em;
 }
 
+.ece-curriculum {
+    display: flex;
+    justify-content: center;
+}
+
+.ece-curriculum img {
+    width: 50%;
+    border-radius: 3em;
+}
+
 /* .fantastic-playroom {
     width: 100%;
     position: relative;
