@@ -469,6 +469,8 @@ blockquote {
 
 .references h2 {
     text-align: center;
+    font-size: 2em;
+    margin: 0.75em 0.25em;
 }
 
 .references p {
@@ -484,10 +486,6 @@ blockquote {
     flex-wrap: nowrap;
     flex-direction: column;
     padding: 0 4em 2em 4em;
-}
-
-.references h2 {
-    font-size: 2em;
 }
 
 footer {
