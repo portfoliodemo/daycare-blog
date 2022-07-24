@@ -387,6 +387,7 @@ blockquote {
     border-width: 0.25em;
     border-style: dashed;
     padding: 1em;
+    justify-content: center;
 }
 
 .thumbnail-preview {
@@ -459,7 +460,7 @@ footer a {
     }
 
     #rainbow img {
-        width: 67%;
+        width: 47%;
         /* border-radius: 7em; */
         border-top-left-radius: 4em;
         border-bottom-left-radius: 4em;
@@ -467,7 +468,7 @@ footer a {
     }
 
     #giraffe img {
-        width: 55%;
+        width: 35%;
         /* border-radius: 7em; */
         border-top-left-radius: 4em;
         border-bottom-left-radius: 4em;
