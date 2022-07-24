@@ -242,6 +242,34 @@ main section ul li {
     border-radius: 3em;
 }
 
+.teacher-student {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 3em;
+}
+
+.teacher-student img {
+    width: 50%;
+    border-radius: 3em;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+    align-items: center;
+}
+
+.company-info p {
+    margin: 0.25em 2em;
+    font-family: var(--font-family-dm-sans);
+}
+
+.company-info p a {
+    text-decoration: none;
+}
+
 /* .fantastic-playroom {
     width: 100%;
     position: relative;
@@ -432,6 +460,10 @@ blockquote {
     flex-wrap: nowrap;
     flex-direction: column;
     padding: 0 4em 2em 4em;
+}
+
+.references h2 {
+    font-size: 2em;
 }
 
 footer {
