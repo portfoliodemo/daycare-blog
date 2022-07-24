@@ -17,8 +17,7 @@ html {
 :root {
     --header-bg-color-black: rgb(46, 49, 54);
     --header-bg-color-faded-grey: #3f3f3fd3; 
-    --font-family-raleway: 'Ribeye Marrow', cursive; 
-    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-ribeye-marrow: 'Ribeye Marrow', cursive; 
     --font-family-dm-sans: 'DM Sans', sans-serif;
 }
 
@@ -45,7 +44,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
     flex-wrap: wrap;
     position: sticky;
     top: 0;
@@ -69,7 +68,7 @@ nav a {
     font-size: 1.5em;
     padding: 0.25em;
     border-radius: 0.25em;
-    font-family: 'Ribeye Marrow', cursive;
+    font-family: var(--font-family-ribeye-marrow);
     margin: 0 1.5em;
     /* border-width: 0.125em; */
     /* border-style: dashed; */
@@ -107,7 +106,7 @@ nav ul.nav-menu {
     list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
 }
 
 nav ul.nav-menu a {
@@ -116,9 +115,9 @@ nav ul.nav-menu a {
     font-size: 1.5em;
     padding: 0.25em;
     border-radius: 0.25em;
+    font-family: var(--font-family-ribeye-marrow);
     /* font-family: 'Rampart One', cursive; */
     /* font-family: 'Vibes', cursive; */
-    font-family: 'Ribeye Marrow', cursive;
     /* font-family: 'Sofadi One', cursive; */
     /* font-family: 'Macondo', cursive; */
     /* background-color: #75af25; */
@@ -143,7 +142,7 @@ header {
 header h1 {
     /* font-family: 'Vibes', cursive; */
     /* font-family: 'Rampart One', cursive; */
-    font-family: 'Ribeye Marrow', cursive;
+    font-family: var(--font-family-ribeye-marrow);
     /* font-family: 'Sofadi One', cursive; */
     /* font-family: 'Macondo', cursive; */
     font-size: 3em;
@@ -179,7 +178,7 @@ figcaption {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -329,7 +328,7 @@ blockquote {
 #einstein, #gerber {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
     min-width: 25ch;
     width: 100%;
     /* max-width: 30ch; */
@@ -473,7 +472,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
     flex-wrap: wrap;
 }
 
@@ -485,13 +484,13 @@ footer h6 {
 #bow-valley-link, .outdoor-links a {
     text-decoration: none;
     color:rgb(101, 101, 230);
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-dm-sans);
 }
 
 footer a {
     text-decoration: none;
     color: #75af25;
-    font-family: 'Ribeye Marrow', cursive;
+    font-family: var(--font-family-ribeye-marrow);
 }
 
 /* Media Queries */
