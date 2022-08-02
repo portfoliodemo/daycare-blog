@@ -405,6 +405,11 @@ blockquote {
 
 /* Preview Posts */
 
+article.preview:hover {
+    /* background: darkslategray; */
+    background: linear-gradient(90deg, whitesmoke 0%, #d9e7ff 100%);
+}
+
 .preview-posts .preview h2 {
     margin: 0.25em 0;
     text-align: center;
